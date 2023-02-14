@@ -4,9 +4,9 @@ using System.Text;
 
 namespace linked_list
 {
-    internal class Linkedlist
+   public  class Linkedlist
     {
-        internal class UnsortedList<T>
+        public class Linkedist<T>
         {
             private Node head;
             public class Node
@@ -31,21 +31,7 @@ namespace linked_list
                 head = node;
                 return true;
             }
-            public override string ToString()
-            {
-                if (head == null)
-                {
-                    return null;
-                }
-                Node t = head;
-                string a = "";
-                while (t != null)
-                {
-                    a = a + t.data + " ";
-                    t = t.Next;
-                }
-                return a;
-            }
+           
         }
     }
 }

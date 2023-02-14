@@ -13,7 +13,8 @@ namespace Data_structure
             list.Add(50);
             list.Add(30);
             list.Add(70);
-            Console.WriteLine(list.ToString());
+            Console.WriteLine("Done");
+            
         }
     }
 }
